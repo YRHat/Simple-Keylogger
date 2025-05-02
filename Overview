@@ -1,0 +1,51 @@
+🛡️ Simple Keylogger – Python
+A lightweight keylogger written in Python using the pynput library. It captures keystrokes and logs them into a timestamped text file.
+
+⚠️ Note: This tool is created for educational and ethical use only. Never use keyloggers without clear consent. Unauthorized usage is illegal and unethical.
+
+🎯 Project Objective
+This project demonstrates how keyboard input can be intercepted using Python for educational cybersecurity purposes, such as understanding how keyloggers operate and how to detect or prevent them.
+
+🔍 Features
+Logs every key press including special keys ([Enter], [Space], etc.)
+
+Automatically creates a new log file with a timestamp
+
+Lightweight and simple design
+
+Runs silently in the background
+
+🖥️ Sample Output
+A sample log file (keylog_20250502_143025.txt) might contain:
+
+csharp
+Copy
+Edit
+h
+e
+l
+l
+o
+[space]
+w
+o
+r
+l
+d
+[enter]
+🛠️ Technologies Used
+Python 3
+
+pynput – For listening to keyboard events
+
+os, datetime – For file handling and timestamping
+
+📚 Use Cases (Ethical)
+🔐 Demonstrate how attackers might capture input
+
+🧠 Learn how to implement input hooks
+
+🧪 Test keyboard monitoring tools or antivirus software
+
+⚠️ Legal Disclaimer
+This tool is only for ethical learning and penetration testing in environments where you have permission. Misuse of keyloggers is punishable under cyber laws. Always get explicit written consent before running this on any machine.
